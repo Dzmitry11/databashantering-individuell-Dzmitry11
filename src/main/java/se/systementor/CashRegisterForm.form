@@ -23,10 +23,18 @@
             </properties>
             <border type="none"/>
             <children>
+              <grid id="8251f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
               <component id="e7451" class="javax.swing.JTextField" binding="textField1" default-binding="true">
                 <constraints/>
                 <properties>
                   <columns value="30"/>
+                  <text value=""/>
                 </properties>
               </component>
               <component id="f6e3a" class="javax.swing.JLabel">
@@ -53,6 +61,54 @@
                   <text value="Pay"/>
                 </properties>
               </component>
+              <component id="cfb03" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Clear"/>
+                </properties>
+              </component>
+              <component id="92045" class="javax.swing.JButton" binding="dagsstatistikButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Dagsstatistik"/>
+                </properties>
+              </component>
+              <component id="1ee4a" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="3ab67" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="63dbf" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="cf5d8" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="114a3" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="5ff5" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
             </children>
           </grid>
           <grid id="a53f" binding="buttonsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
@@ -62,7 +118,18 @@
               <maximumSize width="500" height="500"/>
             </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="7dae1" class="javax.swing.JTextArea" binding="receiptArea">
+                <constraints/>
+                <properties>
+                  <columns value="60"/>
+                  <editable value="false"/>
+                  <font name="Courier New"/>
+                  <maximumSize width="500" height="500"/>
+                  <rows value="0"/>
+                </properties>
+              </component>
+            </children>
           </grid>
         </children>
       </grid>
@@ -79,18 +146,7 @@
               <maximumSize width="500" height="500"/>
             </properties>
             <border type="none"/>
-            <children>
-              <component id="7dae1" class="javax.swing.JTextArea" binding="receiptArea">
-                <constraints/>
-                <properties>
-                  <columns value="60"/>
-                  <editable value="false"/>
-                  <font name="Courier New"/>
-                  <maximumSize width="500" height="500"/>
-                  <rows value="0"/>
-                </properties>
-              </component>
-            </children>
+            <children/>
           </scrollpane>
         </children>
       </grid>
